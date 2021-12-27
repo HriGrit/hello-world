@@ -1,0 +1,21 @@
+
+p {
+  width: 50%;
+  float: left;
+}
+
+#p1 {
+  width: 30%;
+  height: auto;
+  margin-right: 5%;
+}
+#p2 {
+  width:  30%;
+  height: auto;
+  margin-left: 5%;
+}
+
+section {
+  clear: left;
+}
+

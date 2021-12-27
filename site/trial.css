@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+#baap {
+
+}
+
+.item {
+	border: 1px solid black;
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	position: relative;
+}
+
+
