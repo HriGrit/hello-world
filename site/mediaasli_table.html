@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media se table</title>
+
+	<style type="text/css">
+
+		.* {
+			box-sizing: border-box;
+		}
+
+		h1 {
+			margin-bottom: 6%;
+			padding-left: 3%;
+			padding-top: 1.5%;
+		}
+
+		.row {
+			width: 100%;
+		}
+
+		p {
+			margin-left: auto ;
+			margin-right: auto;
+			background-color: indianred;
+			width: 90%;
+			height: 250px;
+			margin: 4%;
+			font-size: 36px;
+		}
+
+
+		
+
+		@media (min-width: 1200px){
+			.p {
+				float: left;
+				width: 16.66%;
+			}
+		}
+
+		@media (min-width: 992px) and (max-width: 1200px){
+			.pp{
+				float: left;
+				width: 25%;
+			}
+		}
+
+
+		@media (min-width: 451px) and (max-width: 992px){
+			.pppp{
+				float: left;
+				width: 41%;
+			}
+		}
+
+	</style>
+
+
+
+</head>
+<body>
+	<h1>Media tags:</h1>
+	<div class="row">
+		<div class="box"><p class="p pp ppp pppp">Item 1</p></div>	
+		<div class="box"><p class="p pp ppp pppp">Item 2</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 3</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 4</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 5</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 6</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 7</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 8</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 9</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 10</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 11</p></div>
+		<div class="box"><p class="p pp ppp pppp">Item 12</p></div>
+	</div>
+</body>
+</html>
