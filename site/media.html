@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media quries</title>
+	<style type="text/css">
+		h1 {
+			font-weight: bolder;
+			font-size: 36px;
+			padding-top: 1.5%;
+			padding-left: 3%;
+		}
+		#first {
+			width: 42.5%;
+			height: 200px;
+			background-color: indigo;
+		}
+		#second {
+			width: 400px;
+			height: 350px;
+			background-color: cyan;
+		}
+		@media (min-width: 1200px){
+			#first{
+				width: 80%;
+			}
+			#second{
+				width: 40%;
+			}
+		}
+		@media (min-width: 992px and max-width: 1200px){
+			#first{
+				width: 60%;
+			}
+			#second{
+				width: 30%;
+			}
+		}
+		@media (max-width: 992px){
+			#first{
+				width: 20%;
+			}
+			#second{
+				width: 20%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Media quries</h1>
+	<div>
+		<p id = 'first'></p>
+		<p id='second'></p>
+	</div>
+</body>
+</html>
